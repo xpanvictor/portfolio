@@ -1,13 +1,23 @@
 .blinking {
     animation: blink 1s infinite ease-in-out;
-    color: black;
     font-weight: bold;
-    font-size: large;
+}
+
+.roundBorder {
+    border: double 1px transparent;
+    background-image: linear-gradient(#0a192f, #0a192f), linear-gradient(to bottom right, #378f87, #B04828);
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
+}
+
+.roundBorder:hover {
+    border: double 1px transparent;
+    background-image: linear-gradient(#0a192f, black), linear-gradient(to bottom right, #378f87, #B04828);
 }
 
 .navbar:hover::before {
     content: '';
-    width: 0%;
+    width: 0;
     height: 6px;
     display: block;
     border: 1px;
@@ -16,7 +26,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    animation: slideRight 1.5s 750ms alternate infinite ease;
+    animation: slideRight 1.5s 350ms forwards ease;
 }
 
 @keyframes blink {
@@ -33,7 +43,7 @@
 
 @keyframes slideRight {
     0% {
-        width: 0%;
+        width: 0;
     }
     100% {
         width: 100%;

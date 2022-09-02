@@ -1,5 +1,6 @@
 export enum fonts {
     pop = 'font-sans',
+    ubuntu = 'font-ubuntu',
     roboto = 'font-roboto',
     inter = 'font-inter'
 }
