@@ -44,7 +44,7 @@ const Contact = () => {
                                className='bg-transparent my-2 outline-none border-2 border-ascent-200 rounded-md p-2' />
                         <br/>
                         <textarea name='message' placeholder='Tell me, I will deliver your message' value={message} onChange={(e)=>setMessage(e.target.value)}
-                                  className='bg-transparent my-2 outline-none border-2 md:w-2/3 h-64 border-ascent-200 rounded-md p-2' />
+                                  className='bg-transparent my-2 outline-none border-2 w-full md:w-2/3 h-64 border-ascent-200 rounded-md p-2' />
                         <br/>
                         <SubText>{status}</SubText><br/>
                         <Button label='Submit' onClick={()=>{}} type='submit' />
