@@ -80,7 +80,7 @@ const Nav = ({showMenu}: {showMenu: boolean}) => {
             </button>
             {/*mobile nav*/}
             <ul className={`${!showMenu && 'hidden'} fixed h-fit py-8 rounded-md border-2 border-ascent-200 mx-auto
-             w-4/5 bg-black/20 backdrop-blur-md top-44 z-40`}>
+             w-4/5 bg-black/60 backdrop-blur-md top-44 z-40`}>
                 {pages.map((page, x) =>
                     <Link href={`/${page == pages[0] ? '': page}`} key={x}><a>
                         <li className={`${styles.navbar} relative w-fit cursor-pointer hover:bg-none p-1 px-3 hover:text-ascent-200 rounded-md hover:shadow-lg`}>
