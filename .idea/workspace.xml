@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f2f89e-5bbb-43f8-b884-1a0b7946e092" name="Changes" comment="Feat: contact n project page">
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a3f2f89e-5bbb-43f8-b884-1a0b7946e092" name="Changes" comment="Feat: contact n project page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +23,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/next-sitemap.config.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/next.config.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/_app.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pages/_document.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/about.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/contact.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pages/index.tsx" root0="FORCE_HIGHLIGHTING" />
@@ -85,7 +87,7 @@
       <workItem from="1662143148727" duration="8121000" />
       <workItem from="1662191833482" duration="4602000" />
       <workItem from="1662198084146" duration="7219000" />
-      <workItem from="1662218775952" duration="9418000" />
+      <workItem from="1662218775952" duration="9734000" />
     </task>
     <task id="LOCAL-00001" summary="Init: home page&#10;&#10;-ts&#10;-next&#10;-nav">
       <created>1661962668694</created>
