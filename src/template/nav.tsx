@@ -8,7 +8,7 @@ import {useState, useEffect} from "react";
 import { motion } from 'framer-motion';
 
 
-const pages = ['home', 'about', 'blogs', 'projects', 'contact']
+export const pages = ['home', 'about', 'blogs', 'projects', 'contact']
 
 const Nav = ({showMenu}: {showMenu: boolean}) => {
     const {pathname} = useRouter()
