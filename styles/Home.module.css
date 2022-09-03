@@ -4,7 +4,7 @@
 }
 
 .roundBorder {
-    border: double 1px transparent;
+    border: double 2px transparent;
     background-image: linear-gradient(#0a192f, #0a192f), linear-gradient(to bottom right, #378f87, #B04828);
     background-clip: padding-box, border-box;
     background-origin: border-box;
@@ -27,6 +27,18 @@
     left: 0;
     top: 0;
     animation: slideRight 1.5s 350ms forwards ease;
+}
+
+.project {
+    display: grid;
+}
+
+.project div {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.project div:nth-of-type(2){
+    grid-area: 2 / 2 / 2 / 2;
 }
 
 @keyframes blink {

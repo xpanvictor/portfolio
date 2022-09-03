@@ -11,7 +11,9 @@ const Home: NextPage = () => {
     <div className='h-full'>
       <Head>
         <title>Xpan</title>
-        <meta name="description" content="Oladunjoye Victor portfolio" />
+          <meta property="og:title" content="Xpan Victor"/>
+          <meta property="og:description" content="YOladunjoye Victor portfolio."/>
+          <meta name="description" content="Oladunjoye Victor portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -30,7 +32,7 @@ const Home: NextPage = () => {
                   </LabelText></h1>
                   <p className='mt-4'><Text font='inter' color='text-gray-400'>
                       I have been writing code for a while now: generally more than (shush, tell no one!) 4 years, but I
-                      only started writing officially for 2 years ago. Yh, officially as writing with frameworks, for projects and
+                      only started writing officially 2 years ago. Yh, officially as writing with frameworks, for projects and
                       not just some curiosity based fun code. <br />
                       Curiosity begot coding
                       (seriously said that <Emoji symbol={'😅'} label={'grin'} />)

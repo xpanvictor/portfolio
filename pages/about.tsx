@@ -14,6 +14,7 @@ const langsDB = [
             ['devicon-tailwindcss-plain', 'tailwind'],
             ['devicon-sass-original', 'sass'],
             ['devicon-typescript-plain', 'typescript'],
+            ['devicon-threejs-original', 'threejs'],
             ['devicon-react-original', 'react'],
             ['devicon-nextjs-original', 'nextjs'],
         ]
@@ -21,7 +22,6 @@ const langsDB = [
     {
         name: 'backend',
         langs: [
-            ['devicon-nodejs-plain', 'nodejs'],
             ['devicon-express-original', 'express'],
             ['devicon-mongodb-plain', 'mongodb'],
             ['devicon-firebase-plain', 'firebase'],
@@ -51,7 +51,7 @@ const xpsDB = [
         name: 'Python',
         start: new Date(2019, 3, 3),
         icon: 'devicon-python-plain',
-        description: 'Started writing python as a first non-web language. Was trying to learn hacking and needed a language for automation.' +
+        description: 'Started writing python as my first non-web language. Was trying to learn hacking and needed a language for automation.' +
             ' Python introduced me to a whole new world where I realised with code I had so much power, haha. This pushed' +
             ' me to learning other languages. Hence python is my first love and I just read books on it now, well for fun and others.',
         rate: 3
