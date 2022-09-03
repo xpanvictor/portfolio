@@ -1,9 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Link from "next/link"
 import styles from '../styles/Home.module.css'
 import Text, {SubText, LabelText} from "../src/components/typo/Text";
 import Emoji from "../src/components/emoji";
-import {useState} from "react";
 import Button from "../src/components/buttons";
 
 const Home: NextPage = () => {
@@ -43,7 +43,9 @@ const Home: NextPage = () => {
                   </Text></p>
 
                   <p className='mt-4'>
-                      <Button label='Resume' onClick={()=>alert('yes')} />
+                      <Link href='https://app.flowcv.com/resume-feedback/ls32WggLWfkZKiAV1Uv-t' passHref>
+                          <Button label='Resume' onClick={()=>{}} />
+                      </Link>
                   </p>
               </div>
 

@@ -56,7 +56,7 @@ const Body = ({children, className, showMenu, setShowMenu}:
             {/*bottom nav*/}
             <section className='bg-black/20 z-30 md:p-5 grid place-items-center h-16 w-full
             fixed left-0 bottom-0 backdrop-blur-md shadow-rose-100'>
-                <div className='flex flex-col md:flex-row justify-between md:w-4/5' onClick={()=>alert('todo: copy fn')}>
+                <div className='flex flex-col md:flex-row justify-between md:w-4/5' onClick={()=>alert('Danke pink')}>
                     <Text className='cursor-copy mx-auto' weight='black' color='text-ascent-200'>
                         &lt;!-- Get to know me, pink:)<span className={`${styles.blinking} text-bgs-200`}>_</span> --&gt;
                     </Text>
