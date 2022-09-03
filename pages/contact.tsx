@@ -24,7 +24,7 @@ const Contact = () => {
             'template_5jwdph7', data,
             process.env.PUBLIC || '')
             .then(function(response) {
-                setStatus(`Success ${response.text}`)
+                setStatus(`Success, message sent successfully`)
             }, function(err) {
                 setStatus('Error, try again later!')
                 console.log('FAILED...', err);
