@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f2f89e-5bbb-43f8-b884-1a0b7946e092" name="Changes" comment="Feat: contact n project page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/nav.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a3f2f89e-5bbb-43f8-b884-1a0b7946e092" name="Changes" comment="Feat: contact n project page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,7 @@
       <workItem from="1662143148727" duration="8121000" />
       <workItem from="1662191833482" duration="4602000" />
       <workItem from="1662198084146" duration="7219000" />
-      <workItem from="1662218775952" duration="4217000" />
+      <workItem from="1662218775952" duration="4637000" />
     </task>
     <task id="LOCAL-00001" summary="Init: home page&#10;&#10;-ts&#10;-next&#10;-nav">
       <created>1661962668694</created>
