@@ -4,7 +4,8 @@ const nextConfig = {
   swcMinify: true,
   env: {
     SERVICE_ID: process.env.SERVICE_ID,
-    PUBLIC: process.env.PUBLIC
+    PUBLIC: process.env.PUBLIC,
+    SITE_URL: 'https://portfolio-xpanvictor.vercel.app/'
   },
   async rewrites() {
     return [
