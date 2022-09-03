@@ -28,11 +28,11 @@ const Home: NextPage = () => {
                   <h3><SubText>Hey, my name is</SubText></h3>
                   <h1 className='mt-6'><LabelText>Oladunjoye Victor Surprise<span className={styles.blinking}>.</span></LabelText></h1>
                   <h1 className='mt-4'><LabelText color='text-gray-400' size='large'>
-                      A fullstack developer going rusty <StyledName label={':)'} />
+                      A fullstack developer becoming a rustacean <StyledName label={':)'} />
                   </LabelText></h1>
                   <p className='mt-4'><Text font='inter' color='text-gray-400'>
                       I have been writing code for a while now: generally more than (shush, tell no one!) 4 years, but I
-                      only started writing officially 2 years ago. Yh, officially as writing with frameworks, for projects and
+                      only started writing officially 2 years ago. Yes, officially as writing with frameworks, for projects and
                       not just some curiosity based fun code. <br />
                       Curiosity begot coding
                       (seriously said that <Emoji symbol={'😅'} label={'grin'} />)
