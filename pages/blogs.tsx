@@ -10,7 +10,7 @@ const blogsDB = [
         title: 'JS Functional OOP and reduce',
         img: '/images/blog_func.png',
         description: 'So as a developer, we interact and make use of Object Oriented practices a lot. It\'s either we are instantiating an object of a class, calling a method of a class or other things like that. The best explanation of OOP I\'ve seen is that from Steve Jobs where he described it say...',
-        url: 'https//:xpan.hashnode.dev/js-functional-oop-and-reduce#heading-the-reduce-method-of-arrays'
+        url: 'https//xpan.hashnode.dev/js-functional-oop-and-reduce#heading-the-reduce-method-of-arrays'
     }
 ]
 
