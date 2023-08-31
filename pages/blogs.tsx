@@ -7,6 +7,12 @@ import Link from "next/link";
 
 const blogsDB = [
     {
+        title: 'My personal blog site',
+        img: '',
+        description: 'I document my writings into my personal blog site. Content is more important thhan the extravagant styling so I keep it markdown. Welcome to my space',
+        url: 'https://xpanvictor.github.io/'
+    },
+    {
         title: 'JS Functional OOP and reduce',
         img: '/images/blog_func.png',
         description: 'So as a developer, we interact and make use of Object Oriented practices a lot. It\'s either we are instantiating an object of a class, calling a method of a class or other things like that. The best explanation of OOP I\'ve seen is that from Steve Jobs where he described it say...',
@@ -33,10 +39,12 @@ const Blogs = () => {
                                 <p className='col-span-5 row-span-2 overflow-hidden'><Text color='text-gray-400'>
                                     {blog.description}
                                 </Text></p>
-                                <a href={blog.url}>
-                                    <FaExternalLinkAlt size={24} className='cursor-pointer hover:bg-gradient-to-br from-ascent-200/40
+                                <Link to={blog.url}>
+                                    <a>
+                                        <FaExternalLinkAlt size={24} className='cursor-pointer hover:bg-gradient-to-br from-ascent-200/40
                                          rounded-md hover:text-ascent-200 text-ascent-300 p-1 w-fit h-fit hover:scale-110 transition-all duration-200' />
-                                </a>
+                                    </a>
+                                </Link>
                             </div>)
                     }
                 </div>
