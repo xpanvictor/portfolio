@@ -39,7 +39,7 @@ const Blogs = () => {
                                 <p className='col-span-5 row-span-2 overflow-hidden'><Text color='text-gray-400'>
                                     {blog.description}
                                 </Text></p>
-                                <Link to={blog.url}>
+                                <Link href={blog.url}>
                                     <a>
                                         <FaExternalLinkAlt size={24} className='cursor-pointer hover:bg-gradient-to-br from-ascent-200/40
                                          rounded-md hover:text-ascent-200 text-ascent-300 p-1 w-fit h-fit hover:scale-110 transition-all duration-200' />
