@@ -72,7 +72,7 @@ const xpsDB = [
         description: 'This is a new language for me and I\'m currently reading "The Rust book" on their web page. Rust is a pretty' +
             ' cool language that provides the execution of cpp but adds great type safety and reduces the stress cpp brings. ' +
             'Imagine no garbage collector, just ownership to manage heap memory. Cool 😎',
-        rate: 2
+        rate: 4
     },
     {
         name: 'C++',
@@ -81,7 +81,7 @@ const xpsDB = [
         description: 'Well, CPP is just a fun language for me. It however exposed me to a lot of things I didn\'t know about ' +
             'programming. It\'s my first compiled language and I learnt a bunch during. Was even to go over dsa with it but ' +
             'not anymore 😉. I\'ll just go with python.',
-        rate: 1
+        rate: 4
     },
 ]
 
